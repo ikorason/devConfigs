@@ -1,5 +1,7 @@
 # TEMP
 
+### work in progress
+
 persdonal dotfiles
 
 Step 1.
