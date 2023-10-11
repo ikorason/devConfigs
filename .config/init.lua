@@ -1,0 +1,2 @@
+require("ikorason")
+print("hello")
