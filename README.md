@@ -7,5 +7,5 @@ Step 1.
 * Install neovim - via brew
 
 Notes:
-* before install telescope and create keymap for “grep”, install tipgrep - brew - in order for searching words works
+* before install telescope and create keymap for “grep”, install ripgrep - brew - in order for searching words works
 * install treesitter
