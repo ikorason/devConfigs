@@ -109,11 +109,6 @@ _G.packer_plugins = {
     path = "/Users/irfannito/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
-  ["lsp-zero.nvim"] = {
-    loaded = true,
-    path = "/Users/irfannito/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
-    url = "https://github.com/VonHeikemen/lsp-zero.nvim"
-  },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/Users/irfannito/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
