@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/Users/irfannito/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  catppuccin = {
+    loaded = true,
+    path = "/Users/irfannito/.local/share/nvim/site/pack/packer/start/catppuccin",
+    url = "https://github.com/catppuccin/nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/Users/irfannito/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -119,6 +124,11 @@ _G.packer_plugins = {
     path = "/Users/irfannito/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["null-ls.nvim"] = {
+    loaded = true,
+    path = "/Users/irfannito/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
+    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/Users/irfannito/.local/share/nvim/site/pack/packer/start/nvim-cmp",
@@ -149,15 +159,15 @@ _G.packer_plugins = {
     path = "/Users/irfannito/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["prettier.nvim"] = {
+    loaded = true,
+    path = "/Users/irfannito/.local/share/nvim/site/pack/packer/start/prettier.nvim",
+    url = "https://github.com/MunifTanjim/prettier.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/Users/irfannito/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
-  },
-  tokyonight = {
-    loaded = true,
-    path = "/Users/irfannito/.local/share/nvim/site/pack/packer/start/tokyonight",
-    url = "https://github.com/folke/tokyonight.nvim"
   }
 }
 

@@ -10,10 +10,10 @@ return require('packer').startup(function(use)
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.4',
         -- or                            , branch = '0.1.x',
-        requires = { {'nvim-lua/plenary.nvim'} }
+        requires = { { 'nvim-lua/plenary.nvim' } }
     }
 
-    use({ 'folke/tokyonight.nvim', as = 'tokyonight' })
+    use { "catppuccin/nvim", as = "catppuccin" }
 
     use {
         'nvim-treesitter/nvim-treesitter',
@@ -28,22 +28,23 @@ return require('packer').startup(function(use)
         'neovim/nvim-lspconfig',
         requires = {
             -- LSP Support
-            {'williamboman/mason.nvim'},
-            {'williamboman/mason-lspconfig.nvim'},
+            { 'williamboman/mason.nvim' },
+            { 'williamboman/mason-lspconfig.nvim' },
 
             -- Autocompletion
-            {'hrsh7th/nvim-cmp'},
-            {'hrsh7th/cmp-buffer'},
-            {'hrsh7th/cmp-path'},
-            {'saadparwaiz1/cmp_luasnip'},
-            {'hrsh7th/cmp-nvim-lsp'},
-            {'hrsh7th/cmp-nvim-lua'},
+            { 'hrsh7th/nvim-cmp' },
+            { 'hrsh7th/cmp-buffer' },
+            { 'hrsh7th/cmp-path' },
+            { 'saadparwaiz1/cmp_luasnip' },
+            { 'hrsh7th/cmp-nvim-lsp' },
+            { 'hrsh7th/cmp-nvim-lua' },
 
             -- Snippets
-            {'L3MON4D3/LuaSnip'},
-            {'rafamadriz/friendly-snippets'},
+            { 'L3MON4D3/LuaSnip' },
+            { 'rafamadriz/friendly-snippets' },
         }
     }
 
+    use('jose-elias-alvarez/null-ls.nvim')
+    use('MunifTanjim/prettier.nvim')
 end)
-
