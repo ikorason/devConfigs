@@ -25,9 +25,11 @@ return require('packer').startup(function(use)
     use('nvim-treesitter/playground')
 
     use {
-        'neovim/nvim-lspconfig',
+        'VonHeikemen/lsp-zero.nvim',
+        branch = 'v1.x',
         requires = {
             -- LSP Support
+            { 'neovim/nvim-lspconfig' },
             { 'williamboman/mason.nvim' },
             { 'williamboman/mason-lspconfig.nvim' },
 
@@ -42,9 +44,10 @@ return require('packer').startup(function(use)
             -- Snippets
             { 'L3MON4D3/LuaSnip' },
             { 'rafamadriz/friendly-snippets' },
+
+            -- prettier format
+            { 'jose-elias-alvarez/null-ls.nvim' },
+            { 'MunifTanjim/prettier.nvim' },
         }
     }
-
-    use('jose-elias-alvarez/null-ls.nvim')
-    use('MunifTanjim/prettier.nvim')
 end)
