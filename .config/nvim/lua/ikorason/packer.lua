@@ -16,10 +16,11 @@ return require('packer').startup(function(use)
     -- theme
     use { "catppuccin/nvim", as = "catppuccin" }
 
-    use {
-        'nvim-lualine/lualine.nvim',
-        requires = { 'nvim-tree/nvim-web-devicons', opt = true }
-    }
+    use 'nvim-lualine/lualine.nvim'
+
+    use 'nvim-tree/nvim-web-devicons'
+
+    use 'folke/trouble.nvim'
 
     use {
         'nvim-treesitter/nvim-treesitter',
