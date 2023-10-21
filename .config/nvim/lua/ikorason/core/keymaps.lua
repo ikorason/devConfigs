@@ -21,10 +21,6 @@ keymap.set("n", "Q", "<nop>")
 
 keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
 
--- keymap.set("n", "<leader>f", function()
---     vim.lsp.buf.format()
--- end)
-
 -- window management
 keymap.set("n", "<leader>sv", "<C-w>v", { desc = "Split window vertically" }) -- split window vertically
 keymap.set("n", "<leader>sh", "<C-w>s", { desc = "Split window horizontally" }) -- split window horizontally
