@@ -13,7 +13,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({ { import = "ikorason.plugins" }, { import = "ikorason.plugins.lsp" } }, {
   install = {
-    colorscheme = { "catppuccin" },
+    colorscheme = { "tokyonight" },
   },
   checker = {
     enabled = true,
