@@ -9,6 +9,7 @@ M.treesitter = {
     "javascript",
     "typescript",
     "tsx",
+    "rust",
     "c",
     "markdown",
     "markdown_inline",
