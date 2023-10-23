@@ -8,6 +8,10 @@ Step 1.
 - Install zsh
 - Install neovim - via brew
 
+Neovim - NvChad
+
+I use NvChad["https://nvchad.com/"] as based config for my neovim configuratio, but I commit all of my custom mappins and configs in the nvim/custom dir
+
 Notes:
 
 - before install telescope and create keymap for “grep”, install ripgrep - brew - in order for searching words works
