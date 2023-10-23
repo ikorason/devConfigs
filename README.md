@@ -10,7 +10,7 @@ Step 1.
 
 Neovim - NvChad
 
-I use [NvChad]("https://nvchad.com/") as based config for my neovim configuratio, but I commit all of my custom mappins and configs in the nvim/custom dir
+I use [NvChad](https://nvchad.com/) as based config for my neovim configuratio, but I commit all of my custom mappins and configs in the nvim/custom dir
 
 Notes:
 
