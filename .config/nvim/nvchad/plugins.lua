@@ -48,6 +48,23 @@ local plugins = {
     end,
   },
 
+  {
+    'wfxr/minimap.vim',
+    lazy = false,
+    build = "cargo install --locked code-minimap",
+    cmd = { "Minimap", "MinimapClose", "MinimapToggle", "MinimapRefresh", "MinimapUpdateHighlight" },
+    -- config = function()
+    --     vim.cmd("let g:minimap_width = 10")
+    --     vim.cmd("let g:minimap_auto_start = 1")
+    --     vim.cmd("let g:minimap_auto_start_win_enter = 1")
+    -- end,
+    -- init = function()
+    --   vim.g.minimap_width = 10
+    --   vim.g.minimap_auto_start = 1
+    --   vim.g.minimap_auto_start_win_enter = 1
+    -- end
+  },
+
   -- To make a plugin not be loaded
   -- {
   --   "NvChad/nvim-colorizer.lua",
