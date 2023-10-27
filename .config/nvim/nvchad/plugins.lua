@@ -49,6 +49,12 @@ local plugins = {
   },
 
   {
+    "tpope/vim-fugitive",
+    event = "VeryLazy",
+    cmd = { "Git", "Gedit", "Gsplit", "Gdiffsplit" },
+  },
+
+  {
     'wfxr/minimap.vim',
     lazy = false,
     build = "cargo install --locked code-minimap",
