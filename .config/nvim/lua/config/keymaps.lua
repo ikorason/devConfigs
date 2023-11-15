@@ -14,13 +14,8 @@ keymap.set("n", "dw", "vb_d")
 -- Select all
 keymap.set("n", "<C-a>", "gg<S-v>G")
 
--- Jumplist
+-- Jump list
 keymap.set("n", "<C-m>", "<C-i>", opts)
-
--- New tab
-keymap.set("n", "te", ":tabedit", opts)
-keymap.set("n", "<tab>", ":tabnext<Return>", opts)
-keymap.set("n", "<s-tab>", ":tabprev<Return>", opts)
 
 -- Split window
 keymap.set("n", "ss", ":split<Return>", opts)
@@ -37,8 +32,3 @@ keymap.set("n", "<C-w><left>", "<C-w><")
 keymap.set("n", "<C-w><right>", "C-w>>")
 keymap.set("n", "<C-w><up>", "C-w>+")
 keymap.set("n", "<C-w><down>", "C-w>-")
-
--- Diagnostic
-keymap.set("n", "<C-j>", function()
-  vim.diagnostic.goto_next()
-end, opts)
