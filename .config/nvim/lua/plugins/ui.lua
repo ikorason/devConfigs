@@ -6,6 +6,19 @@ return {
   end,
   config = function()
     require("noice").setup({
+      lsp = {
+        progress = {
+          enabled = true,
+          format = {
+            { "{data.progress.percentage} ", hl_group = "Comment" },
+            { "{spinner} ", hl_group = "NoiceLspProgressSpinner" },
+            { "{data.progress.title} ", hl_group = "Comment" },
+          },
+          format_done = {},
+          throttle = 1000 / 30,
+          view = "mini",
+        },
+      },
       views = {
         mini = {
           position = {
