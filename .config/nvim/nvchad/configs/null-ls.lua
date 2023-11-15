@@ -11,6 +11,9 @@ local sources = {
   b.diagnostics.eslint_d,
   b.code_actions.eslint_d,
 
+  -- rust
+  b.formatting.rustfmt,
+
   -- Lua
   b.formatting.stylua,
 
