@@ -13,4 +13,11 @@ return {
     },
     opts = { snippet_engine = "luasnip" },
   },
+
+  -- Incremental rename
+  {
+    "smjonas/inc-rename.nvim",
+    cmd = "IncRename",
+    config = true,
+  },
 }
