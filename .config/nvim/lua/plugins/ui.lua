@@ -1,9 +1,6 @@
 return {
   -- messages, cmdline and the popupmenu
   "folke/noice.nvim",
-  opts = function(_, opts)
-    opts.presets.lsp_doc_border = true
-  end,
   config = function()
     require("noice").setup({
       lsp = {
@@ -18,6 +15,13 @@ return {
           throttle = 1000 / 30,
           view = "mini",
         },
+      },
+      presets = {
+        bottom_search = false, -- use a classic bottom cmdline for search
+        command_palette = false, -- position the cmdline and popupmenu together
+        long_message_to_split = true, -- long messages will be sent to a split
+        inc_rename = false, -- enables an input dialog for inc-rename.nvim
+        lsp_doc_border = true, -- add a border to hover docs and signature help
       },
       views = {
         mini = {
