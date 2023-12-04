@@ -10,6 +10,7 @@ return {
         "luacheck",
         -- web dev stuff
         "typescript-language-server",
+        "mdx-analyzer",
       })
     end,
   },
