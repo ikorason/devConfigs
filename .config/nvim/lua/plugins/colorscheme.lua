@@ -1,4 +1,6 @@
 return {
+  -- "rebelot/kanagawa.nvim",
+
   {
     "neanias/everforest-nvim",
     version = false,
@@ -7,9 +9,11 @@ return {
     config = function()
       require("everforest").setup({
         italics = true,
-        on_highlights = function(hl, palette)
-          hl.TSDanger = {}
-        end,
+        diagnostic_virtual_text = "grey",
+        diagnostic_line_highlight = true,
+        -- on_highlights = function(hl, palette)
+        --   hl.TSDanger = {}
+        -- end,
         -- on_highlights = function(hl, palette)
         --   hl.DiagnosticError = { fg = palette.none, bg = palette.none, sp = palette.red }
         --   hl.DiagnosticWarn = { fg = palette.none, bg = palette.none, sp = palette.yellow }
@@ -25,6 +29,7 @@ return {
     "LazyVim/LazyVim",
     opts = {
       colorscheme = "everforest",
+      -- colorscheme = "kanagawa",
     },
   },
 }
