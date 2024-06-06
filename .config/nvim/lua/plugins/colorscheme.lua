@@ -24,12 +24,23 @@ return {
     end,
   },
 
+  {
+    "rose-pine/neovim",
+    name = "rose-pine",
+    config = function()
+      require("rose-pine").setup({
+        variant = "moon",
+      })
+    end,
+  },
+
   -- Configure LazyVim to load kanagawa
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "everforest",
+      -- colorscheme = "everforest",
       -- colorscheme = "kanagawa",
+      colorscheme = "rose-pine",
     },
   },
 }

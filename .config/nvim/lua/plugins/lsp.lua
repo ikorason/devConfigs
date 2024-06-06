@@ -11,6 +11,8 @@ return {
         -- web dev stuff
         "typescript-language-server",
         "mdx-analyzer",
+        -- go
+        "gopls",
       })
     end,
   },
