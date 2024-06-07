@@ -1,3 +1,5 @@
+M = {}
+
 -- Keymaps are automatically loaded on the VeryLazy event
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
@@ -37,3 +39,11 @@ keymap.set("n", "<C-w><down>", "C-w>-")
 keymap.set("n", "<C-j>", function()
   vim.diagnostic.goto_next()
 end, opts)
+
+function M.setup_copilot_keymaps()
+  return {
+    { "<leader>ap", ":Copilot panel<CR>", desc = "Copilot panel" },
+  }
+end
+
+return M

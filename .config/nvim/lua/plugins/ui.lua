@@ -129,20 +129,6 @@ return {
     },
   },
 
-  -- statusline
-  {
-    "nvim-lualine/lualine.nvim",
-    event = "VeryLazy",
-    opts = function()
-      return {
-        options = {
-          -- theme = "everforest",
-          theme = "rose-pine",
-        },
-      }
-    end,
-  },
-
   -- filename
   {
     "b0o/incline.nvim",
